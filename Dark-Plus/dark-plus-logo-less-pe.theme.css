@@ -369,14 +369,14 @@
 .avatar-2e8lTP.clickable-31pE3P {
   filter: drop-shadow(0 0 5px);
   color: var(--darkplus-sec);
-  width: 50px;
+  width: 40px;
   height: auto;
 }
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
-  transform: scale(1.2); 
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+  transform: scale(1.5); 
+  transition: width 0.7s ease, height 0.7s ease, transform 0.7s ease;
 }
 
 .membersGroup-2eiWxl {

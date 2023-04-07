@@ -371,19 +371,12 @@
   color: var(--darkplus-sec);
   width: 40px;
   height: auto;
+  transition: width 0.7s ease, height 0.7s ease, transform 0.7s ease;: transform: rotate(0deg);
 }
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
   transform: scale(1.5); 
-  transition: width 0.7s ease, height 0.7s ease, transform 0.7s ease;: transform: rotate(0deg);
-}
-
-.avatar-2e8lTP:hover.clickable-31pE3P:hover:after {
-  filter: drop-shadow(0 0 5px);
-  color: var(--darkplus-sec);
-  transform: scale(0.5); 
-  transition: width 0.7s ease, height 0.7s ease, transform 0.7s ease;: transform: rotate(0deg);
 }
 
 .membersGroup-2eiWxl {

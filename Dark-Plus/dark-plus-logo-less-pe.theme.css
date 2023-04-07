@@ -373,7 +373,7 @@
   height: auto;
 }
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
-  @keyframe in {
+@keyframe in {
     from: transform: rotate(0deg);
     to: transform: rotate(360deg);
 }

@@ -373,15 +373,17 @@
   height: auto;
 }
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
-@keyframe in {
-    from: transform: rotate(0deg);
-    to: transform: rotate(360deg);
+  filter: drop-shadow(0 0 8px);
+  color: var(--darkplus-sec);
+  transform: scale(1.5); 
+  transition: width 0.7s ease, height 0.7s ease, transform 0.7s ease;: transform: rotate(0deg);
 }
 
-@keyframe out {
-    from: transform: rotate(360deg);
-    to: transform: rotate(0deg);
-}
+.avatar-2e8lTP:hover.clickable-31pE3P:hover:after {
+  filter: drop-shadow(0 0 5px);
+  color: var(--darkplus-sec);
+  transform: scale(0.5); 
+  transition: width 0.7s ease, height 0.7s ease, transform 0.7s ease;: transform: rotate(0deg);
 }
 
 .membersGroup-2eiWxl {

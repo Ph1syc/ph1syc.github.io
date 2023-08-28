@@ -111,6 +111,18 @@
   background-color: var(--darkplus-bg);
   color: var(--darkplus-sec);
 }
+.mention-3XBnnZ {
+  background-color: var(--darkplus-sec);
+}
+.mentioned-Tre-dv {
+  background-color: rgba(var(--darkplus-sec), 0.1) !important;
+}
+.mentioned-Tre-dv:before {
+  background-color: var(--darkplus-sec);
+}
+.mentioned-Tre-dv:hover {
+  background-color: rgba(var(--darkplus-sec), 0.2) !important;
+}
 
 .iconBadge-3Mmg92 {
   background-color: var(--darkplus-sec);

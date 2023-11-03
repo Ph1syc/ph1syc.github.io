@@ -377,9 +377,12 @@
 .avatar__08316.clickable_d866f1 {
   filter: drop-shadow(0 0 5px);
   color: var(--darkplus-sec);
-  width: 100%;
-  transition: width 1s;
 }
+
+.avatar__08316:hover.clickable_d866f1{
+  transition: transform 1s ease
+}
+
 .avatar__08316:hover.clickable_d866f1:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);

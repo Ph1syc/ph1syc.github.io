@@ -377,12 +377,14 @@
 .avatar__08316.clickable_d866f1 {
   filter: drop-shadow(0 0 5px);
   color: var(--darkplus-sec);
+  width: 100%;
+  transition: width 1s;
 }
 .avatar__08316:hover.clickable_d866f1:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
-  transform: scale(1.2) rotate(1080deg); 
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+  transform: scale(1.2);
+  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease
 }
 
 .membersGroup__85843 {
